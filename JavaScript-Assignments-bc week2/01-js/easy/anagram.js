@@ -21,4 +21,5 @@ function isAnagram(str1, str2) {
   return sortString(str1) === sortString(str2);
 }
 console.log(isAnagram("ram","arm"));
+console
 module.exports = isAnagram;
